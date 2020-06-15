@@ -1,3 +1,81 @@
-h1 {
-  color: salmon;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html {
+  background-color: white;
 }
+
+body {
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+img {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  margin: 30px 10px;
+}
+
+button {
+  padding: 10px 65px;
+  font-family: 'Roboto';
+  margin: 15px 0 30px 0;
+  color: rgb(209, 209, 209);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.btn-text {
+  color: rgb(87, 87, 87);
+}
+
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Roboto';
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.img-container {
+  position: relative;
+  text-align: center;
+}
+
+.img-text:hover {
+  cursor: pointer;
+}
+
+.img-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1rem;
+}
+
+#title {
+  color: rgb(87, 87, 87);
+  margin-bottom: -1px;
+}
+
+#subtitle {
+  color: rgb(87, 87, 87);
+  font-size: .6rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+#img-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+
+
+
